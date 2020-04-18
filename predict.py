@@ -92,7 +92,7 @@ def main():
     print(probability)
     lent = len(classes) - 1
     for i in range(len(classes)):
-        print('{0} Prediction = {1} with probabilty {2}'.format(i+1, classes[lent - i], probability[lent - i]))
+        print('{0} Prediction = {1} with probabilty {2} %'.format(i+1, classes[lent - i], probability[lent - i]*100))
 if __name__ == "__main__":
               main()
                                                       
